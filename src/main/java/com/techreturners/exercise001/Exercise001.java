@@ -16,8 +16,9 @@ public class Exercise001 {
     }
 
     public String reverse(String sentence) {
-        // Add your code here
-        return "";
+        StringBuilder sb=new StringBuilder(sentence); 
+        sb.reverse(); 
+        return sb.toString();
     }
 
     public int countLinuxUsers(List<User> users) {

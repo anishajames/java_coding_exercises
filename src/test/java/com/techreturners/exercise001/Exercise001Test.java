@@ -42,8 +42,7 @@ public class Exercise001Test {
     }
 
     @Test
-    @Ignore
-    public void checkSentenceReverse() {
+     public void checkSentenceReverse() {
         Exercise001 ex001 = new Exercise001();
         assertEquals("oof", ex001.reverse("foo"));
         assertEquals("?siht od ot tnaw neve uoy dluow yhw", ex001.reverse("why would you even want to do this?"));
